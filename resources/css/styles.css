@@ -7,8 +7,6 @@ html {
 }
 
 #wrapper {
-  height: 736px;
-  width: 414px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,7 +29,6 @@ menu {
   background-image: url(../images/back.png);
   background-repeat: repeat;
   background-clip: border-box;
-  height: 100%;
 }
 
 .inactive-seenapse {
