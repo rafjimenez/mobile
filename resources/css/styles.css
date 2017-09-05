@@ -1,0 +1,156 @@
+html {
+  background-color: Black;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 12px;
+  color: White;
+}
+
+#wrapper {
+  height: 736px;
+  width: 414px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+menu {
+  margin: 15px;
+}
+
+#seenapse-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/back.png);
+  background-repeat: repeat;
+  height: 100%;
+}
+
+.inactive-seenapse {
+  height: 60px;
+  width: 60px;
+  border: 10px solid rgb(202, 233, 60);
+  border-radius: 60px;
+  background-size: cover;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.inactive-seenapse h6 {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 20px;
+  text-overflow: ellipsis;
+}
+
+
+#grandparent {
+  background-image: url(../images/ponyo.png);
+}
+
+#grandchild-1 {
+  background-image: url(../images/virilio.png);
+  margin-top: -100px;
+  margin-right: -45px;
+}
+
+#grandchild-2 {
+  background-image: url(../images/kylie.png);
+  margin-top: 60px;
+  margin-right: 5px;
+}
+
+#grandchild-3 {
+  background-image: url(../images/woody.png);
+  margin-top: 60px;
+  margin-left: 5px;
+}
+
+#grandchild-4 {
+  background-image: url(../images/ophelia.png);
+  margin-top: -100px;
+  margin-left: -45px;
+}
+
+#new-seenapse {
+  background-image: url(../images/new_seenapse.png);
+  margin-top: 130px;
+}
+
+.active-seenapse {
+  height: 140px;
+  width: 140px;
+  border: 10px solid rgb(202, 233, 60);
+  border-radius: 140px;
+  background-size: cover;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-overflow: ellipsis;
+}
+
+.active-seenapse h5 {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 60px;
+  text-overflow: ellipsis;
+}
+
+#parent {
+  background-image: url(../images/holloway.png);
+  z-index: 2;
+}
+
+#child {
+  background-image: url(../images/sue.png);
+  z-index: 2;
+}
+
+#description-container {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(202, 233, 60);
+  border-radius: 300px;
+  color: Black;
+  text-align: center;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: -55px;
+  z-index: 1;
+}
+
+#description-container h3 {
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  line-height: 1.4rem;
+  margin: 20px;
+}
+
+#description-container h1 {
+  font-size: 1.4rem;
+}
+
+#grandchildren {
+  display: flex;
+  align-items: center;
+  margin-top: -130px;
+}
+
+#dial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
