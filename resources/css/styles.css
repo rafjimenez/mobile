@@ -26,9 +26,11 @@ menu {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /*
   background-image: url(../images/back.png);
   background-repeat: repeat;
   background-clip: border-box;
+  */
 }
 
 .inactive-seenapse {
@@ -155,7 +157,8 @@ menu {
 
 #faves h6 {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin-left: 3px;
 }
 
 #grandchildren {
