@@ -7,9 +7,9 @@ html {
 }
 
 div {
-
+/*
   border: 1px white solid;
-  
+*/
 }
 
 #wrapper {
@@ -19,7 +19,7 @@ div {
 }
 
 header {
-  display: flex;
+  display: none;
   justify-content: space-between;
 }
 
@@ -32,11 +32,9 @@ menu {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*
   background-image: url(../images/back.png);
   background-repeat: repeat;
   background-clip: border-box;
-  */
 }
 
 .inactive-seenapse {
