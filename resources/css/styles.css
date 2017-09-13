@@ -6,6 +6,12 @@ html {
   color: White;
 }
 
+div {
+
+  border: 1px white solid;
+  
+}
+
 #wrapper {
   display: flex;
   flex-direction: column;
@@ -26,7 +32,6 @@ menu {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px white solid;
   /*
   background-image: url(../images/back.png);
   background-repeat: repeat;
